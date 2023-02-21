@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset all the styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Esraa's Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Esraa</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list" id="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#about" class="nav__link">
+                <i class="nav__icon fa-solid fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__link">
+                <i class="nav__icon fa-solid fa-screwdriver-wrench"></i>
+                <span>Skills</span>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#services" class="nav__link">
+                <i class="nav__icon fa-solid fa-file"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#portfolio" class="nav__link">
+                <i class="nav__icon fa-solid fa-suitcase"></i>
+                <span>Portfolio</span>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#contact-me" class="nav__link">
+                <i class="nav__icon fa-solid fa-location-arrow"></i>
+                <span>Contact me</span>
+              </a>
+            </li>
+          </ul>
+          <i class="nav__close-icon fa-solid fa-xmark" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-grip"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main" id="main">
+      <!-- start home -->
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="home__content">
+            <div class="home__socials">
+              <a
+                href="https://www.linkedin.com/in/esraa-mohamed-b6a720203/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/esraa00"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <div class="home__cube">
+              <div class="cover"></div>
+              <div>
+                <span style="--i: 0"></span>
+                <span style="--i: 1"></span>
+                <span style="--i: 2"></span>
+                <span style="--i: 3"></span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Esraa</h1>
+              <h3 class="home__subtitle">Full-stack developer</h3>
+              <p class="home__description">
+                Trying my best to provide you with high quality software.
+              </p>
+              <a href="#contact-me" class="button">
+                <span>Let's talk</span>
+                <i class="fa-solid fa-location-arrow button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button">
+              <i class="fa-solid fa-computer-mouse home__scroll-mouse-icon"></i>
+              <span class="home__scroll-text">See more</span>
+              <i class="fa-solid fa-arrow-down home__scroll-arrow-icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- end home -->
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
