@@ -689,3 +689,25 @@ body {
   font-weight: 500;
 }
 /* end prtfolio */
+
+.testimonials .testimonial {
+  margin: 0 auto;
+  background-color: var(--color-gray-too);
+  padding: 40px;
+  border-radius: 5px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.testimonials .testimonial .testimonial__customer-info {
+  align-self: flex-end;
+}
+
+.testimonials .testimonial .testimonial__customer-name {
+  color: pink;
+}
+.testimonial__platform-name {
+  font-style: italic;
+}
